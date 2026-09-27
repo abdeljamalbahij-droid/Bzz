@@ -1,4 +1,4 @@
-/* Le Livre National — La SEGPA
+/* Manuel du Champs Habitat en SEGPA
    Paiement Bitcoin : adresse, QR code, conversion EUR → BTC, lien de commande */
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   // Lien de commande pré-rempli
-  const subject = "Commande — Le Livre National La SEGPA";
+  const subject = "Commande — Manuel du Champs Habitat en SEGPA";
   const body =
     "Bonjour,\n\n" +
-    "Je commande le Livre National La SEGPA (20 €).\n\n" +
+    "Je commande le Manuel du Champs Habitat en SEGPA (20 €).\n\n" +
     "Montant envoyé en BTC : \n" +
     "Hash de la transaction : \n" +
     "Nom : \n" +

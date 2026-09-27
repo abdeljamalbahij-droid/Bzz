@@ -1,4 +1,4 @@
-# Le Livre National — La SEGPA 📖
+# Manuel du Champs Habitat en SEGPA 📖
 
 Site vitrine et boutique du manuel écrit par et pour les classes de SEGPA. Publié automatiquement sur GitHub Pages à chaque push sur `main`.
 
