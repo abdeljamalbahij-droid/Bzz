@@ -1,0 +1,99 @@
+================================================================
+LE LIVRE NATIONAL LA SEGPA
+Chapitre de Maths — Les calculs utiles à l'atelier
+================================================================
+
+POURQUOI CE CHAPITRE ?
+----------------------------------------------------------------
+Un menuisier qui se trompe de 2 mm doit refaire sa planche. Une
+cuisine qui oublie de doubler les quantités fait un plat pour
+12 au lieu de 24. Ce chapitre regroupe les calculs qui servent
+vraiment, sur un chantier ou en cuisine.
+
+1. LES UNITÉS ET LES CONVERSIONS
+----------------------------------------------------------------
+Longueurs :
+   1 m = 100 cm     1 cm = 10 mm     1 m = 1 000 mm
+Surface :
+   1 m² = 10 000 cm²
+Poids :
+   1 kg = 1 000 g
+Liquides :
+   1 L = 100 cL     1 L = 1 000 mL
+
+Astuce du carnet : écris toujours l'unité à côté du chiffre.
+"23" ne veut rien dire. "23 cm", oui.
+
+2. LE PÉRIMÈTRE ET LA SURFACE
+----------------------------------------------------------------
+Périmètre = le tour de la figure (une plinthe, une bordure).
+Surface = l'intérieur de la figure (un carrelage, une pelouse).
+
+Rectangle :
+   périmètre = (longueur + largeur) × 2
+   surface = longueur × largeur
+
+EXEMPLE D'ATELIER — monter une étagère murale
+   Le mur mesure 2,40 m de long et 1,10 m de haut.
+   Surface du mur = 2,40 × 1,10 = 2,64 m²
+   Je veux poser une baguette de bois sur tout le tour :
+   périmètre = (2,40 + 1,10) × 2 = 7 m
+   Les baguettes se vendent en longueurs de 2 m :
+   7 ÷ 2 = 3,5, donc j'achète 4 baguettes.
+
+3. LES QUANTITÉS EN CUISINE (la règle de trois)
+----------------------------------------------------------------
+Une recette est écrite pour 4 personnes. On est 30.
+
+Méthode en trois étapes :
+   1) Calcule pour 1 personne (divise).
+   2) Calcule pour 30 (multiplie).
+   3) Vérifie l'ordre de grandeur avec ta tête.
+
+EXEMPLE — gâteau au yaourt pour 4 personnes
+   Ingrédients : 1 yaourt, 2 œufs, 150 g de farine,
+   120 g de sucre, 1/2 sachet de levure.
+
+   Pour 30 personnes :
+   30 ÷ 4 = 7,5 fois la recette
+   Yaourt   : 7,5  → 8 yaourts
+   Œufs     : 2 × 7,5 = 15 œufs
+   Farine   : 150 × 7,5 = 1 125 g ≈ 1,1 kg
+   Sucre    : 120 × 7,5 = 900 g
+   Levure  : 1/2 × 7,5 ≈ 4 sachets
+
+   Vérification d'ordre de grandeur :
+   30 c'est à peu près 7 fois 4, donc tout doit être
+   environ 7 fois plus grand. C'est le cas : OK.
+
+4. LE COÛT D'UN PROJET (atelier bois)
+----------------------------------------------------------------
+Fabriquer 6 nichoirs pour la vente du collège.
+
+   Bois (une planche 2 m × 30 cm) : 14,90 € la planche
+   Un nichoir utilise 80 cm de planche → 6 nichoirs = 4,80 m
+   Il faut 4,80 ÷ 2 = 2,4 → 3 planches
+   Bois : 3 × 14,90 = 44,70 €
+
+   Vis (boîte de 200) : 8,50 €
+   Un nichoir utilise 24 vis → 6 × 24 = 144 vis
+   Une seule boîte suffit.
+
+   Boîte de vis : 8,50 €
+
+   TOTAL : 44,70 + 8,50 = 53,20 €
+
+   Prix de vente décidé par la classe : 15 € le nichoir
+   Recettes si tout est vendu : 6 × 15 = 90 €
+   Bénéfice : 90 − 53,20 = 36,80 €
+
+EXERCICE (à faire en atelier)
+----------------------------------------------------------------
+Ta classe vend des pots de confiture. Un pot revient à 1,80 €
+en ingrédients et le pot vide coûte 0,40 €.
+a) Calcule le coût total pour 25 pots.
+b) La classe veut un bénéfice d'au moins 30 €. À quel prix
+   minimum vend-on chaque pot ?
+(Cherche d'abord le coût total : 25 × 2,20 = 55 €. Ensuite
+essaye des prix : à 4 €, le bénéfice est de (4 − 2,20) × 25 = 45 €.
+À 3,50 € ? Fais le calcul.)

@@ -1,43 +1,46 @@
-# Le Livre National La SEGPA 📘
+# Le Livre National — La SEGPA 📖
 
-Boutique en ligne pour acheter **Le Livre National La SEGPA** (livre physique, **20 €**), avec **paiement en Bitcoin** (adresse + QR code). Publié automatiquement sur **GitHub Pages** à chaque push sur `main`.
+Site vitrine et boutique du manuel écrit par et pour les classes de SEGPA. Publié automatiquement sur GitHub Pages à chaque push sur `main`.
 
-**🌐 Site en ligne :** <https://abdeljamalbahij-droid.github.io/Bzz/>
+**🌐 En ligne :** <https://abdeljamalbahij-droid.github.io/Bzz/>
 
-## ⚠️ À faire avant la mise en ligne réelle
+## Contenu
 
-Le fichier **`config.js`** contient des valeurs fictives à remplacer :
+- **Page unique éditoriale** (`index.html`) : le livre, les extraits de cours téléchargeables, les fiches métiers, l'achat en Bitcoin, la FAQ
+- **Extraits de cours complets** (`cours/*.txt`) : lettre de motivation (français), calculs d'atelier (maths), fiche HACCP (atelier), fiche métier boulanger — tous en texte brut, ouvrables partout
+- **À propos** (`apropos.md`) : présentation du livre et table des extraits
+
+## ⚠️ À compléter avant la vente
+
+`config.js` contient des valeurs à remplacer :
 
 ```js
 const SHOP_CONFIG = {
-    btcAddress: "bc1qexemple_adresse_a_remplacer_avant_publication000000", // ⚠️ votre vraie adresse BTC
-    priceEUR: 20,                    // prix en euros
-    contactEmail: "contact@exemple.fr", // ⚠️ votre vrai email
+  btcAddress: "bc1qREMPLACE_MOI...",   // ← ton adresse Bitcoin de réception
+  priceEUR: 20,                         // ← prix en euros
+  contactEmail: "ton-email@exemple.fr", // ← ton email de commande
 };
 ```
 
-1. **Créez un portefeuille Bitcoin** (par ex. [BlueWallet](https://bluewallet.io/) ou Trust Wallet sur téléphone) et copiez votre adresse de réception (commence souvent par `bc1q…`).
-2. **Remplacez l'adresse** dans `config.js` — le QR code se mettra à jour automatiquement.
-3. **Remplacez l'email** de contact dans `config.js`.
-4. Poussez sur `main` : le site se republie automatiquement.
+**Créer une adresse Bitcoin (5 minutes, gratuit) :**
+1. Installer BlueWallet (ou Trust Wallet) sur un téléphone
+2. Créer un portefeuille et **sauvegarder la phrase de récupération sur papier** (personne ne peut la retrouver : 12 mots, c'est la seule clé)
+3. Copier l'adresse de réception (commence par `bc1q…`) dans `config.js`
+4. Ne jamais partager la phrase de récupération — uniquement l'adresse
 
-## Structure du projet
+## Publication automatique
+
+`.github/workflows/deploy.yml` publie le site à chaque push sur `main`. GitHub Pages est déjà activé (source : GitHub Actions).
 
 ```
-├── index.html   # Page boutique (produit, paiement BTC, FAQ, contact)
-├── style.css    # Design responsive (thème Bitcoin orange/dark)
-├── script.js    # QR code, copie d'adresse, conversion EUR → BTC (API CoinGecko)
-├── config.js    # ⚠️ Adresse BTC, prix et email — À MODIFIER
-└── .github/workflows/deploy.yml  # Publication automatique GitHub Pages
+├── index.html       # Page du site
+├── style.css        # Style éditorial (papier/encre)
+├── script.js        # QR code, copie d'adresse, conversion EUR→BTC (CoinGecko)
+├── config.js        # ⚠️ Adresse BTC, prix, email
+├── apropos.md       # Présentation du livre
+└── cours/           # Extraits de cours téléchargeables (.txt)
 ```
 
-## Fonctionnement du paiement
+## Paiement
 
-Le site est **statique** : il ne traite pas les paiements lui-même.
-
-1. L'acheteur scanne le QR code ou copie l'adresse Bitcoin
-2. Il envoie l'équivalent de 20 € en BTC (montant affiché en direct via l'API CoinGecko)
-3. Il vous envoie sa preuve de paiement + son adresse de livraison par email
-4. Vous vérifiez la transaction (dans votre application Bitcoin) et vous expédiez le livre
-
-> 💡 Pour automatiser entièrement les paiements (confirmation automatique sans vérification manuelle), il faudrait un service comme **BTCPay Server** ou un hébergement avec backend — impossible sur GitHub Pages seul.
+Le site est statique : l'acheteur paie vers l'adresse Bitcoin affichée (QR code), puis envoie sa preuve de paiement par email. La confirmation est manuelle (vérification dans l'application du portefeuille). Pour une confirmation automatique, il faudrait BTCPay Server ou un hébergement avec backend.

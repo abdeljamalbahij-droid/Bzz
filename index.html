@@ -1,172 +1,189 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Achetez Le Livre National La SEGPA en version physique — 20 €, paiement en Bitcoin. Livraison partout en France.">
-    <title>Le Livre National La SEGPA — 20 € — Paiement Bitcoin</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Le Livre National La SEGPA — le manuel écrit par et pour les classes de SEGPA : français, maths d'atelier, fiches métiers. 20 €, paiement Bitcoin.">
+<title>Le Livre National — La SEGPA</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav container">
-            <a href="#accueil" class="logo">📘 <span>Le Livre National<span class="logo-sub">La SEGPA</span></span></a>
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="menu-icon" aria-label="Menu">☰</label>
-            <ul class="nav-links">
-                <li><a href="#livre">Le livre</a></li>
-                <li><a href="#commander">Commander</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="accueil" class="hero">
-        <div class="hero-content container">
-            <h1>Le Livre National <span class="highlight">La SEGPA</span></h1>
-            <p class="lead">Le livre qui rassemble les savoirs, les ateliers et l'esprit de la SEGPA. Version physique, expédié chez vous.</p>
-            <div class="hero-price">
-                <span class="price-eur">20 €</span>
-                <span class="price-btc" id="hero-btc-price">paiement en Bitcoin accepté</span>
-            </div>
-            <div class="hero-buttons">
-                <a href="#commander" class="btn btn-primary">Commander maintenant</a>
-                <a href="#livre" class="btn btn-secondary">Découvrir le livre</a>
-            </div>
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead-top">
+      <span class="edition">Édition 2025</span>
+      <a href="#acheter" class="masthead-buy">Commander — 20&nbsp;€</a>
+    </div>
+    <h1 class="masthead-title">Le Livre National</h1>
+    <p class="masthead-sub">La&nbsp;SEGPA</p>
+    <p class="masthead-tag">Le manuel écrit par et pour les classes de SEGPA — français, maths d'atelier, fiches métiers réelles.</p>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap toc-wrap">
+    <a href="#le-livre">Le livre</a>
+    <a href="#extraits">Extraits de cours</a>
+    <a href="#metiers">Fiches métiers</a>
+    <a href="#acheter">Acheter</a>
+    <a href="#questions">Questions</a>
+  </div>
+</nav>
+
+<main>
+
+<section id="le-livre" class="wrap section">
+  <div class="book-presentation">
+    <div class="cover" role="img" aria-label="Couverture du livre">
+      <div class="cover-inner">
+        <span class="cover-rule"></span>
+        <span class="cover-title">LE LIVRE<br>NATIONAL</span>
+        <span class="cover-sep">✦</span>
+        <span class="cover-sub">LA SEGPA</span>
+        <span class="cover-rule"></span>
+      </div>
+      <div class="cover-price">20&nbsp;€</div>
+    </div>
+    <div class="pitch">
+      <h2 class="h2">Un livre qui part de l'atelier, pas du programme théorique</h2>
+      <p>Ce manuel est né d'un constat : les élèves de SEGPA apprennent avec les mains, et presque aucun support ne parle de ce qu'ils fabriquent réellement. Chaque chapitre part d'une situation vraie — monter une étagère, vendre des nichoirs, réussir un stage en boulangerie — et y rattache les savoirs : le calcul d'un devis, la règle de trois en cuisine, la lettre de motivation.</p>
+      <ul class="pitch-list">
+        <li><strong>Français</strong> — la lettre de motivation, l'oral d'entretien, le CV d'une page. Avec des exemples d'élèves, prénoms réels, stage réel.</li>
+        <li><strong>Maths</strong> — les calculs d'atelier : conversions, surfaces, quantités en cuisine, coût d'un projet, bénéfice.</li>
+        <li><strong>Ateliers</strong> — hygiène et restauration (HACCP), bois, espace vert, maintenance. Fiches techniques utilisées en séance.</li>
+        <li><strong>Métiers</strong> — des fiches écrites avec des artisans : horaires vrais, salaires vrais, le meilleur et le plus dur du quotidien.</li>
+        <li><strong>Après la 3e</strong> — le CAP, l'apprentissage, le lycée pro : les démarches concrètes, dans l'ordre.</li>
+      </ul>
+      <p class="pitch-format">Reliure collée · A5 · ~180 pages · imprimé en France</p>
+    </div>
+  </div>
+</section>
+
+<section id="extraits" class="alt section">
+  <div class="wrap">
+    <h2 class="h2">Extraits de cours, en libre lecture</h2>
+    <p class="lead">Quatre chapitres complets à lire ou télécharger, pour juger sur pièce. Format texte brut, ouvrable partout : LibreOffice, Word, tablette, imprimante.</p>
+
+    <div class="excerpts">
+      <article class="excerpt">
+        <div class="excerpt-head">
+          <span class="excerpt-tag">Français</span>
+          <h3>La lettre de motivation</h3>
         </div>
-    </section>
-
-    <section id="livre" class="section">
-        <div class="container product-grid">
-            <div class="product-cover" aria-hidden="true">
-                <div class="book">
-                    <div class="book-spine"></div>
-                    <div class="book-front">
-                        <span class="book-title">LE LIVRE NATIONAL</span>
-                        <span class="book-sub">LA SEGPA</span>
-                        <span class="book-badge">20 €</span>
-                    </div>
-                </div>
-            </div>
-            <div class="product-info">
-                <h2 class="section-title left">Un livre, toute la SEGPA</h2>
-                <p>« Le Livre National La SEGPA » est l'ouvrage de référence rédigé par et pour la communauté SEGPA :</p>
-                <ul class="features">
-                    <li>📖 <strong>Format physique</strong> — reliure de qualité, prêt à être lu et partagé</li>
-                    <li>🛠️ <strong>Contenu concret</strong> — les ateliers, les métiers, le parcours de la 6<sup>e</sup> à la 3<sup>e</sup></li>
-                    <li>🎓 <strong>Pédagogie adaptée</strong> — des chapitres courts, illustrés et accessibles</li>
-                    <li>🇫🇷 <strong>Livraison partout en France</strong> — expédié sous 3 à 5 jours ouvrés</li>
-                </ul>
-                <div class="product-price-box">
-                    <span class="price-eur big">20 €</span>
-                    <span class="price-btc" id="product-btc-price">≈ … BTC</span>
-                    <a href="#commander" class="btn btn-primary">Commander</a>
-                </div>
-            </div>
+        <p class="excerpt-desc">La structure en cinq blocs, l'exemple complet d'une lettre de stage en boulangerie (élève réelle de 3e), les erreurs qui font refuser un dossier, et un exercice de réécriture.</p>
+        <p class="excerpt-preview">« Votre boulangerie se trouve près de chez moi et je passe devant votre vitrine chaque matin. J'aime votre pain au levain et le fait que vous fabriquez tout sur place. »</p>
+        <div class="excerpt-actions">
+          <a class="btn-ghost" href="cours/francais-lettre-de-motivation.txt">Lire le chapitre</a>
+          <a class="btn-dl" href="cours/francais-lettre-de-motivation.txt" download>Télécharger (.txt)</a>
         </div>
-    </section>
+      </article>
 
-    <section id="commander" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Commander et payer en Bitcoin</h2>
-            <p class="section-intro">Paiement direct, sans intermédiaire. Suivez ces 3 étapes simples.</p>
-
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Copiez l'adresse Bitcoin</h3>
-                    <p>Copiez l'adresse ci-dessous ou scannez le QR code avec votre application Bitcoin.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Envoyez 20 € en BTC</h3>
-                    <p>Convertissez 20 € en Bitcoin au moment de l'envoi (le montant exact en BTC s'affiche sous l'adresse).</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Confirmez votre commande</h3>
-                    <p>Envoyez-nous un e-mail avec votre preuve de paiement et votre adresse de livraison. Nous expédions sous 3 à 5 jours.</p>
-                </div>
-            </div>
-
-            <div class="payment-box">
-                <div class="payment-qr">
-                    <div id="qrcode"></div>
-                    <noscript><p class="warning">Activez JavaScript pour afficher le QR code, ou copiez l'adresse manuellement.</p></noscript>
-                </div>
-                <div class="payment-details">
-                    <h3>Adresse Bitcoin (BTC)</h3>
-                    <div class="address-row">
-                        <code id="btc-address">Chargement…</code>
-                        <button type="button" id="copy-btn" class="btn btn-small">Copier</button>
-                    </div>
-                    <p class="amount">Montant : <strong>20 €</strong> <span id="payment-btc-amount">≈ … BTC</span></p>
-                    <p class="note">⚠️ Vérifiez bien l'adresse avant d'envoyer. Les transactions Bitcoin sont irréversibles.</p>
-                    <a href="mailto:contact@exemple.fr?subject=Commande%20-%20Le%20Livre%20National%20La%20SEGPA" class="btn btn-secondary">Envoyer ma preuve de paiement</a>
-                </div>
-            </div>
+      <article class="excerpt">
+        <div class="excerpt-head">
+          <span class="excerpt-tag">Maths</span>
+          <h3>Les calculs d'atelier</h3>
         </div>
-    </section>
-
-    <section id="faq" class="section">
-        <div class="container">
-            <h2 class="section-title">Questions fréquentes</h2>
-            <div class="faq-list">
-                <details>
-                    <summary>Comment payer en Bitcoin si je n'en ai jamais utilisé ?</summary>
-                    <p>Installez une application Bitcoin (par exemple BlueWallet ou Trust Wallet), achetez des BTC via la plateforme recommandée par l'application, puis scannez le QR code de cette page pour envoyer le paiement.</p>
-                </details>
-                <details>
-                    <summary>Combien de Bitcoin dois-je envoyer exactement ?</summary>
-                    <p>Le montant exact en BTC, calculé au cours actuel, s'affiche automatiquement sur cette page. Envoyez ce montant — inutile d'être précis au centime, un montant proche suffit.</p>
-                </details>
-                <details>
-                    <summary>Quand recevrai-je mon livre ?</summary>
-                    <p>Dès réception de la confirmation de votre paiement (généralement 10 à 30 minutes), nous expédions le livre sous 3 à 5 jours ouvrés partout en France.</p>
-                </details>
-                <details>
-                    <summary>Puis-je payer autrement qu'en Bitcoin ?</summary>
-                    <p>Actuellement, le paiement Bitcoin est le moyen de paiement principal. Contactez-nous par e-mail pour étudier les autres possibilités.</p>
-                </details>
-            </div>
+        <p class="excerpt-desc">Conversions, périmètre et surface avec une étagère murale réelle, la règle de trois pour passer un gâteau de 4 à 30 personnes, et le devis complet de six nichoirs vendus par une classe.</p>
+        <p class="excerpt-preview">« Bénéfice : 90 − 53,20 = 36,80 €. La classe a voté : cet argent finance la sortie de fin d'année. »</p>
+        <div class="excerpt-actions">
+          <a class="btn-ghost" href="cours/maths-calculs-atelier.txt">Lire le chapitre</a>
+          <a class="btn-dl" href="cours/maths-calculs-atelier.txt" download>Télécharger (.txt)</a>
         </div>
-    </section>
+      </article>
 
-    <section id="contact" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <p class="section-intro">Une question sur le livre, la livraison ou le paiement ? Écrivez-nous.</p>
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <div class="contact-icon">✉️</div>
-                    <h3>Email</h3>
-                    <p><a href="mailto:contact@exemple.fr">contact@exemple.fr</a></p>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">🚚</div>
-                    <h3>Livraison</h3>
-                    <p>Expédition sous 3 à 5 jours ouvrés<br>Partout en France</p>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">₿</div>
-                    <h3>Paiement</h3>
-                    <p>Bitcoin (BTC)<br>Direct, sans intermédiaire</p>
-                </div>
-            </div>
+      <article class="excerpt">
+        <div class="excerpt-head">
+          <span class="excerpt-tag">Atelier</span>
+          <h3>Hygiène et restauration — HACCP</h3>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>© 2025 Le Livre National La SEGPA — Publié automatiquement grâce à <a href="https://github.com/abdeljamalbahij-droid/Bzz" target="_blank" rel="noopener">GitHub Pages</a></p>
+        <p class="excerpt-desc">La fiche technique n° 04 telle qu'elle est affichée en cuisine pédagogique : chaîne du froid, méthode des couleurs des planches, les sept erreurs qui coûtent cher, quiz d'évaluation.</p>
+        <p class="excerpt-preview">« Nettoyer sans désinfecter, c'est laver une assiette avec de l'eau de vaisselle sale. »</p>
+        <div class="excerpt-actions">
+          <a class="btn-ghost" href="cours/atelier-hygiene-fiche-technique.txt">Lire la fiche</a>
+          <a class="btn-dl" href="cours/atelier-hygiene-fiche-technique.txt" download>Télécharger (.txt)</a>
         </div>
-    </footer>
+      </article>
 
-    <a href="#accueil" class="back-to-top" aria-label="Retour en haut">↑</a>
+      <article class="excerpt">
+        <div class="excerpt-head">
+          <span class="excerpt-tag">Métier</span>
+          <h3>Fiche métier : boulanger</h3>
+        </div>
+        <p class="excerpt-desc">La journée complète heure par heure (du lever à 3 h 45 au nettoyage à midi), les qualités attendues, le CAP en alternance, et le témoignage d'un artisan de 34 ans.</p>
+        <p class="excerpt-preview">« Le meilleur moment : sortir les croissants à 7 h, ça sent bon dans toute la rue. »</p>
+        <div class="excerpt-actions">
+          <a class="btn-ghost" href="cours/metier-boulanger.txt">Lire la fiche</a>
+          <a class="btn-dl" href="cours/metier-boulanger.txt" download>Télécharger (.txt)</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-    <script src="script.js"></script>
+<section id="metiers" class="wrap section">
+  <h2 class="h2">Les métiers qui recrutent, racontés de l'intérieur</h2>
+  <p class="lead">Le livre contient douze fiches métiers, construites avec des professionnels. Pas de brochure : le vrai horaire, le vrai salaire, ce qui est dur et ce qui est bon.</p>
+  <div class="jobs">
+    <div class="job"><span class="job-icon">🥖</span><div><h3>Boulanger</h3><p>CAP en 2 ans, alternance dès la 3e. Il manque des boulangers partout en France.</p></div></div>
+    <div class="job"><span class="job-icon">🪵</span><div><h3>Menuisier</h3><p>Le bois ou l'aluminium, en atelier ou sur chantier. Lecture de plans et précision.</p></div></div>
+    <div class="job"><span class="job-icon">🌿</span><div><h3>Jardinier — espaces verts</h3><p>Mairies, entreprises, particuliers : un métier dehors, recrutement toute l'année.</p></div></div>
+    <div class="job"><span class="job-icon">🔩</span><div><h3>Mécanicien maintenance</h3><p>Vélos, motos, machines agricoles : réparer, entretenir, diagnostiquer.</p></div></div>
+    <div class="job"><span class="job-icon">🍳</span><div><h3>Cuisinier</h3><p>Cuisine scolaire, restaurant, cantine : le CAP le plus demandé des SEGPA.</p></div></div>
+    <div class="job"><span class="job-icon">🚚</span><div><h3>Chauffeur-livreur</h3><p>Le permis (financé par l'employeur), le contact client, l'autonomie de la route.</p></div></div>
+  </div>
+</section>
+
+<section id="acheter" class="alt section">
+  <div class="wrap buy-grid">
+    <div class="buy-info">
+      <h2 class="h2">Acheter le livre — 20&nbsp;€</h2>
+      <p>Expédié sous 3 à 5 jours ouvrés, partout en France. Reliure collée, format A5, environ 180 pages, corrigés et fiches d'évaluation inclus.</p>
+      <p class="buy-bulk">Établissements et classes : prix dégressif dès 15 exemplaires — <a href="#questions">nous écrire</a>.</p>
+    </div>
+    <div class="buy-box">
+      <div class="qr-zone">
+        <div id="qrcode" aria-label="QR code de l'adresse Bitcoin"></div>
+        <noscript><p class="qr-noscript">Activez JavaScript pour le QR code, ou copiez l'adresse ci-dessous.</p></noscript>
+      </div>
+      <div class="pay-info">
+        <h3>Payer en Bitcoin</h3>
+        <p class="pay-amount">Montant : <strong>20&nbsp;€</strong> <span id="btc-amount">≈ conversion…</span></p>
+        <div class="address-row">
+          <code id="btc-address">chargement…</code>
+          <button type="button" id="copy-btn" class="btn-copy">Copier</button>
+        </div>
+        <p class="pay-steps">1. Copiez l'adresse ou scannez le QR code<br>2. Envoyez l'équivalent de 20&nbsp;€<br>3. Écrivez-nous avec la preuve et votre adresse postale</p>
+        <a id="pay-mail" class="btn-solid" href="#">Envoyer ma commande</a>
+        <p class="pay-note">Les transactions Bitcoin sont irréversibles : vérifiez l'adresse avant l'envoi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="questions" class="wrap section">
+  <h2 class="h2">Questions</h2>
+  <div class="faq">
+    <details><summary>Je n'ai jamais utilisé de Bitcoin. Comment faire ?</summary><p>Installez une application comme BlueWallet ou Trust Wallet, achetez l'équivalent de 20 € en BTC depuis l'application, puis scannez le QR code de cette page. Le montant exact au cours du jour s'affiche à côté de l'adresse.</p></details>
+    <details><summary>Puis-je payer autrement ?</summary><p>Le Bitcoin est le moyen de paiement du site. Pour une commande d'établissement, ou une autre solution, écrivez-nous : on trouve toujours un arrangement.</p></details>
+    <details><summary>Le livre convient à quel niveau ?</summary><p>De la 6e à la 3e. Les chapitrons sont courts, illustrés, et pensés pour être lus à deux : un élève et un adulte, un élève et un professeur, un élève et un camarade.</p></details>
+    <details><summary>Les extraits sont-ils complets ?</summary><p>Oui : les quatre fichiers téléchargeables sont des chapitres entiers, avec exercices. Le livre imprimé ajoute les corrigés, les fiches d'évaluation et douze fiches métiers au lieu d'une.</p></details>
+    <details><summary>Comment suivre ma commande ?</summary><p>Chaque commande reçoit une réponse par email avec le numéro de suivi de l'envoi postal dès que le paiement est confirmé.</p></details>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-wrap">
+    <p>© 2025 Le Livre National — La SEGPA</p>
+    <p><a href="apropos.md">À propos du livre</a> · Publié via GitHub Pages</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="config.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
